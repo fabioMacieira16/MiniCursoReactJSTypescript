@@ -5,10 +5,10 @@ interface HeaderProps {
     subtitle?: string;
 }
 
-const Home: React.FC<HeaderProps> = () => {
+const Header: React.FC<HeaderProps> = () => {
     return(
         <h1>Hello dev o melho em react</h1>
     );
 }
 
-export default Home;
+export default Header;
